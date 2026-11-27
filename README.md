@@ -17,7 +17,6 @@
 | :--- | :--- | :---: |
 | **[agent-skills](https://github.com/weiweimhy/agent-skills)** | Cross-host Agent Skills workflow library shared across Codex &amp; Antigravity · 跨宿主 AI 技能与工作流工程体系 | `Active` |
 | **[imhy.top](https://imhy.top/)** ([repo](https://github.com/weiweimhy/weiweimhy.github.io)) | Personal technical blog **「君不见」** — engineering notes, architecture write-ups &amp; deep dives | `Writing` |
-| **[go-utils](https://github.com/weiweimhy/go-utils)** | Standard-library-first reusable Go v6 toolkit with lean modular submodules | `Archived` |
 
 <sub><em>In private incubation: local-first Markdown desktop editor &amp; personal knowledge systems.</em></sub>
 
