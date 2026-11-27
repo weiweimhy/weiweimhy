@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 264" width="960" height="264" role="img" aria-label="weiweimhy · 君不见 GitHub Profile Banner (Light)">
+  <defs>
+    <clipPath id="canvas-clip">
+      <rect x="0" y="0" width="960" height="264" rx="16" />
+    </clipPath>
+    <clipPath id="card-clip">
+      <rect x="584" y="40" width="328" height="184" rx="12" />
+    </clipPath>
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#CBD5E1" />
+    </pattern>
+    <radialGradient id="ambient-glow" cx="84%" cy="16%" r="55%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.08" />
+      <stop offset="55%" stop-color="#0F766E" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+    <filter id="soft-shadow" x="-10%" y="-10%" width="125%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+    <style>
+      .sans { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', system-ui, -apple-system, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <g id="layer-bg" clip-path="url(#canvas-clip)">
+    <rect x="0" y="0" width="960" height="264" fill="#F8FAFC" />
+    <rect x="0" y="0" width="960" height="264" fill="url(#dot-grid)" opacity="0.65" />
+    <rect x="0" y="0" width="960" height="264" fill="url(#ambient-glow)" />
+    <rect x="0.5" y="0.5" width="959" height="263" rx="15.5" fill="none" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+
+  <g id="layer-regions">
+    <!-- Subtle vertical divider accent -->
+    <line x1="552" y1="52" x2="552" y2="212" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4" />
+  </g>
+
+  <g id="layer-nodes">
+    <!-- Right spec card -->
+    <g id="spec-card" filter="url(#soft-shadow)">
+      <rect x="584" y="40" width="328" height="184" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2" />
+      <g clip-path="url(#card-clip)">
+        <rect x="584" y="40" width="328" height="3" fill="url(#accent-bar)" />
+      </g>
+      <!-- Card header -->
+      <text x="604" y="68" class="mono" font-size="11.5" font-weight="600" fill="#475569" letter-spacing="0.04em">profile.spec</text>
+      <circle cx="834" cy="64" r="3.5" fill="#0F766E" />
+      <text x="844" y="68" class="mono" font-size="11" font-weight="600" fill="#0F766E">active</text>
+      <line x1="604" y1="82" x2="892" y2="82" stroke="#E2E8F0" stroke-width="1" />
+
+      <!-- Key-Value rows -->
+      <text x="604" y="108" class="mono" font-size="12" font-weight="500" fill="#64748B">runtime</text>
+      <text x="692" y="108" class="mono" font-size="12" font-weight="500" fill="#0F172A">Go / TypeScript / Python</text>
+
+      <text x="604" y="136" class="mono" font-size="12" font-weight="500" fill="#64748B">desktop</text>
+      <text x="692" y="136" class="mono" font-size="12" font-weight="500" fill="#0F172A">Wails / React / Vue</text>
+
+      <text x="604" y="164" class="mono" font-size="12" font-weight="500" fill="#64748B">agents</text>
+      <text x="692" y="164" class="mono" font-size="12" font-weight="600" fill="#1D4ED8">Skills &amp; Multi-Host Flow</text>
+
+      <text x="604" y="192" class="mono" font-size="12" font-weight="500" fill="#64748B">study</text>
+      <text x="692" y="192" class="mono" font-size="12" font-weight="500" fill="#0F172A">Lua Internals &amp; Reverse</text>
+    </g>
+
+    <!-- Bottom left minimal metadata pills -->
+    <g id="pill-blog">
+      <rect x="48" y="198" width="104" height="28" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <circle cx="64" cy="212" r="3" fill="#1D4ED8" />
+      <text x="76" y="216" class="mono" font-size="11.5" font-weight="500" fill="#0F172A">imhy.top</text>
+    </g>
+    <g id="pill-location">
+      <rect x="164" y="198" width="84" height="28" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <circle cx="180" cy="212" r="3" fill="#0F766E" />
+      <text x="192" y="216" class="mono" font-size="11.5" font-weight="500" fill="#334155">China</text>
+    </g>
+    <g id="pill-stack">
+      <rect x="260" y="198" width="168" height="28" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <text x="344" y="216" text-anchor="middle" class="mono" font-size="11.5" font-weight="500" fill="#475569">Go · TS · Wails · AI</text>
+    </g>
+  </g>
+
+  <g id="layer-annotations">
+    <!-- Eyebrow label -->
+    <circle cx="53" cy="52" r="3.5" fill="#1D4ED8" />
+    <text x="66" y="56" class="mono" font-size="11" font-weight="600" fill="#1D4ED8" letter-spacing="0.12em">SYSTEMS · LOCAL-FIRST · AI WORKFLOWS</text>
+
+    <!-- Hero Title -->
+    <text x="48" y="106" class="sans" font-size="34" font-weight="700" fill="#0F172A" letter-spacing="-0.02em">
+      weiweimhy<tspan fill="#94A3B8" font-weight="400" dx="10">·</tspan><tspan fill="#334155" font-size="28" font-weight="600" dx="10">君不见</tspan>
+    </text>
+
+    <!-- Bilingual Subtitle -->
+    <text x="48" y="144" class="sans" font-size="14" font-weight="500" fill="#334155">Go tooling, local-first desktop apps &amp; AI agent workflows.</text>
+    <text x="48" y="170" class="sans" font-size="13.5" font-weight="400" fill="#475569">专注工程效率、离线桌面软件与底层原理实践</text>
+  </g>
+</svg>
